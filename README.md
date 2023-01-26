@@ -1,2 +1,0 @@
-# blockapptech.github.one
-test
