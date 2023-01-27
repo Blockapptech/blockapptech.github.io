@@ -1,6 +1,8 @@
-// blockapptech.github.one
 
 // SPDX-License-Identifier: MIT
+// https://blockapptech.github.io/
+// https://blockapptech.one/
+
 
 pragma solidity ^0.8.0;
 
@@ -490,8 +492,8 @@ pragma solidity ^0.8.0;
 
 
 
-contract ERC20_Token_BAT is ERC20, ERC20Burnable {
-    constructor() ERC20("BlockAppTech", "BAT") {
-        _mint(msg.sender, 1000_000_000_000 * 10**18 );
+contract UnitiToken is ERC20, ERC20Burnable {
+    constructor() ERC20("BlockAppTech_Uni", "BATU") {
+        _mint(msg.sender, 11_000_000_000 * 10**18 );
     }
 }
